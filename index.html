@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Debugging HTML Practice
+    <title>Debugging HTML Practice</title><!--1(no title end tag)-->
   </head>
   <body>
+    <h1>Profile Name</h1><!--2(h1 was labled as an incorrect heading level)-->
     <div class='profile'>
-        <h6>Profile Name</h6>
+
         <div class='address'>Address</div>
 
         <div class='contact'>
@@ -15,17 +16,18 @@
           <strong>Telephone:</strong> 0207 955 3705
         </div>
 
-        <div class='categories'>
-          <h2>Categories</h2>
-          <li>
-            <ul>Lorem ipsum</ul>
-            <ul>dolor sit</ul>
-            <ul>amet</ul>
-            <ul>dolor sit</ul>
-          </li>
-        </div>
+      <div class='categories'>
+      <h2>Categories</h2>
+          <ul>
+            <li>Lorem ipsum</li>
+            <li>dolor sit</li>
+            <li>amet</li>
+            <li>dolor sit</li>
+          </ul><!--3(This ul was built inversely, all ul swapped with li and vice versa)-->
 
       </div>
+
+    </div>
 
       <div id='biography'>
         <p>
@@ -37,6 +39,9 @@
           cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
           est laborum.
         </p>
+        <p>
+          <center><FONT COLOR="#ff0000 ">Text</FONT></center>
+        </p><!--4(The example called for this for some reason)-->
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -52,7 +57,7 @@
 
         <div class='footer-3-wide'>
           <ul>
-            <ol>
+            <li><!--5(This was ol instead of li)-->
               <a href='https://www.example.com/' target='_blank'>
                 Lorem ipsum dolor sit amet
               </a>
